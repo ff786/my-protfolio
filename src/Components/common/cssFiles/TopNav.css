@@ -1,0 +1,22 @@
+.TpNv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    align-items: center;
+    background-color: #11d6d0;
+}
+.nvLink {
+    display: flex;
+    flex-direction: row;
+}
+.nvLink a {
+    color: #000000; /* Set default text color */
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.nvLink a:hover {
+    color: #1949b0;
+}
